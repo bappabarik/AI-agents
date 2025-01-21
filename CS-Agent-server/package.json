@@ -7,7 +7,8 @@
   "type": "module",
   "main": "main.js",
   "scripts": {
-    "test": "dotenv/config --experimental-json-modules src/main.js"
+    "test": "dotenv/config --experimental-json-modules src/main.js",
+    "start": "node src/main.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
